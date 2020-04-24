@@ -1,2 +1,2 @@
 # YShiuan_C
-A testing for a github website
+I am a computational designer and trained as architect. With design thinking and engineering habits of mind.
