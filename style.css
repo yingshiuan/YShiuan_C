@@ -19,7 +19,7 @@ html{
 
 
 
-body{
+main{
     max-width: 64.875rem;
     margin-left: auto;
     margin-right: auto;
@@ -70,7 +70,7 @@ header{
 }
 
 
-/* hover */
+/* tooltip hover */
 
 .homepage a:hover {
     text-decoration: underline;
@@ -114,6 +114,8 @@ header{
 /* nav bar */
 nav{
     margin: 4rem 0rem 4rem  0rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
 
       
 }
@@ -306,11 +308,13 @@ nav ul li.navbarToggle.hide i::before{
 
 }
 
-
+.name{
+    color: #707070;
+}
 
 
 /* main */
-main{
+main .main_container{
    
 
 
@@ -346,23 +350,20 @@ aside{
 
 /* footer */
 footer{
+    display: block;
     width: 100%;
-    position: fixed;
-    bottom: 0;
-    left: 0;
     background: #2C2C2E;
-    margin: 4rem 0rem 0rem 0rem;
-}
+    z-index: 1;    
+
+}   
   
   
 footer .footer_container{
     max-width: 64.875rem;
-    display: block;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;  
-    margin-top: 2.5rem;
+    padding: 1rem 2.5rem 1rem 2.5rem;
+   
 }
   
   
@@ -396,6 +397,7 @@ footer .footer_main .material-icons{
     border-radius: 5px;
     border: 2px hidden #222222;
     transition: all 0.3s ease;
+
 }
   
 footer .footer_main a{
