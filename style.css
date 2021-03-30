@@ -113,11 +113,8 @@ header{
 
 /* nav bar */
 nav{
-    margin: 4rem 0rem 4rem  0rem;
-    padding-right: 2.5rem;
-    padding-left: 2.5rem;
-
-      
+    max-width: 64.875rem;
+    margin: 4rem 0rem 4rem  0rem;      
 }
 
 
