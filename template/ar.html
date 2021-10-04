@@ -14,16 +14,16 @@
         </div>
     </div>
     
-    <div>
+    <div class="modelviewer">
         <model-viewer
               loading="eager"
               camera-controls
               ar
               ar-modes="webxr scene-viewer quick-look"
-              poster="yshiuan_c.png"        
               src="yshiuan_c.glb"
               ios-src="yshiuan_c.usdz"
               alt="yshiuan_c"
+              autoplay
               >
         </model-viewer>
     </div>
@@ -38,4 +38,11 @@ display: flex;
 justify-content: center;
 flex-direction: vertical;
 }
+
+.modelviewer{
+    display: flex;
+justify-content: center;
+flex-direction: vertical;
+}
+
 </style>
