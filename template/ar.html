@@ -19,6 +19,7 @@
               loading="eager"
               camera-controls
               ar
+              ar-placement="wall"
               ar-modes="webxr scene-viewer quick-look"
               src="yshiuan_c.glb"
               ios-src="yshiuan_c.usdz"
@@ -41,8 +42,10 @@ flex-direction: vertical;
 
 .modelviewer{
     display: flex;
-justify-content: center;
-flex-direction: vertical;
+    justify-content: center;
+    flex-direction: vertical;
+    width:100vw;
+    height: auto;
 }
 
 </style>
