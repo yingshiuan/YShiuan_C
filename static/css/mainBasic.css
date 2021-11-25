@@ -286,6 +286,7 @@ currently
 
 .info a{
     color:var(--caption-color);
+    text-decoration: underline;
 }
 
 
