@@ -284,6 +284,9 @@ currently
     color:var(--caption-color);
 }
 
+.info a{
+    color:var(--caption-color);
+}
 
 
 
