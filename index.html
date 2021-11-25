@@ -1,466 +1,331 @@
-<!DOCTYPE html>
-
+﻿﻿<!DOCTYPE html>
 <html>
 <meta charset="urf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="stylesheet" type="text/css" href="style.css">
-<!-- Font -->
-<link href="https://fonts.googleapis.com/css2?family=DM+Mono&display=swap" rel="stylesheet">
-<!-- icon -->
-
 
 <head>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
-    
-    <!--This is title of website /tab/ -->
-    <title>YShiuan_C</title>
-    <!-- Logo on the Tab  -->
-    <link rel="icon" type="image/png" href="Logo/YShiuan_C_16x16.png">
-
+  <meta name="title" content="Digital Creator | YShiuan_C" />
+  <meta name="author" content="YShiuan_C" />
+  <meta name="copyright" content="YShiuan_C" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="UX-Product-Designer">
+  <meta name="keywords" content="">
+  <meta name="color-scheme" content="light dark"/>
+  <link rel="stylesheet" href="/YShiuan_C/static/style.css">
+  <link rel="canonical" href="https://yingshiuan.github.io/YShiuan_C/" />
+  <!--This is title of website /tab/ -->
+  <title>Digital Creator | YShiuan_C</title>
+  <!-- Logo on the Tab  -->
+  <link rel="icon" sizes="16x16" type="image/png" href="/YShiuan_C/static/logo/YShiuan_C_16x16.png">
+  <!-- icon -->
+  <script src="https://kit.fontawesome.com/03192cca0c.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script type="text/javascript" src="/YShiuan_C/static/js/mode-theme.js"></script>
+  <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <!--SEO-->
+  <meta property='og:title' content="Digital Creator | YShiuan_C"/>
+  <meta property='og:image' content="https://yingshiuan.github.io/YShiuan_C/"/>
+  <meta property='og:description' content="YShiuan_C is a interaction designer who coding for my side project."/>
+  <meta property='og:url' content="https://yingshiuan.github.io/YShiuan_C/" />
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  
+  </script>
 </head>
 
 
 
-<!--Website Content -->
 <body>
-
-    <!-- header cover, Logo, language -->
+      <!--Header-->  
     <header>
         <div class="headerContainer">
-            
             <div class = "logo"> </div>
-            
-            
-            <div class ="homepage"><a href = "#">YShiuan_C</a>
-                <span class="tooltip">Homepage</span>
+            <div class="top">
+                <div class ="homepage"><a href = "/YShiuan_C/">YShiuan_C</a>
+                    <span class="tooltip">Homepage</span>
+                </div>
+                <div class="mode">
+                    <button id="mode-button" class="mode-button">
+                        <span class="material-icons">tonality</span>
+                        <span id="mode">system</span>
+                    </button>
+                </div>
             </div>
-
-
         </div>
-        
-        
-
     </header>
 
-
-    <!--nav-->
+    <!-- currently -->
+        <div class="currently" id="scroll">
+            <div class="info">
+                <p>Hi Hi, Check my <a href="https://www.youtube.com/channel/UCFpat39kIqYmYTbbfdoBNfA">YouTube</a> here!</p>
+            </div>
+        </div>
+       
     <!--nav-->
     <nav>
         <ul id="navbar">
-          <li class="logo"><a href="#">YShiuan_C</a></li>
-          <li class="item"><a href="template/aboutme.html">About me</a></li>
-          <li class="item"><a href="template/resume.html">Resume</a></li>
-          <li class="item"><a href="template/portfolio.html">Portfolio</a></li>
-          <!-- 
-          <li class="item"><a style="display:none" href="template/blog.html">Blog</a></li>
-                  -->
-          <li class="item"><a href="template/contact.html">Contact</a></li>
-          <li class="navbarToggle"><a href="#!"><i class="material-icons">menu</i></a></li>   
+            <li class="logo"><a href="/YShiuan_C/"> </a></li>
+            <!--
+            <li class="item">
+                <a href="/YShiuan_C/about-me/">About me</a>
+            </li>
+            
+            <li class="item">
+                <a href="/YShiuan_C/resume/">Resume</a>
+            </li>
+            
+            <li class="item">
+                <a href="/YShiuan_C/portfolio/">Portfolio</a>
+            </li>
+            
+            <li class="item">
+                <a href="/YShiuan_C/contact/">Contact</a>
+            </li>
+            -->
+
+            <li class="navbarToggle"><a href="#!"><i class="material-icons">menu</i></a></li> 
         </ul>
     </nav>
 
-
-    <!--main key content here-->
-    <main class="main_container">
-
-        <!-- cover picture -->
-
-
-        <!--Greeting-->
-
-        <div class="greeting">
-            <ul class="row">
-                <li class ="contactme_item col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h1><br>
-                        Hi there!<br>
-                        I'm<br>
-                        Ying-Shiuan Chen.
-                        <br>
-                        <br>
-                        <br>
-                        <br>
-                    </h1>
-                </li>
-
-                <li class ="contactme_item col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <h2>I design and develop.
-                    </h2>
-                </li>
-            </ul>
-
-        </div>
-        
-
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-
-        <div class="name">
-            <h1></h1>
-        </div>
-        
-
-
-
-        <!-- work gallery-->
-
-        <div class="work">
-            <ul class="row">
-                <!-- 4 -->
-                <li class="work_item col-xs-6 col-sm-6 col-md-6 col-lg-4">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">1</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="work_item col-xs-6 col-sm-6 col-md-3 col-lg-2">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">2</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="work_item col-xs-6 col-sm-6 col-md-3 col-lg-2">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">3</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <!--  work__item__discovery -->
-                <li class="work_item work__item__discovery col-xs-6 col-sm-6 col-md-3 col-lg-2">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">4</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <!-- 2 Height work__item--nga work__item--bottom -->
-                <li class="work_item work__item--tall work__item--nga work__item--bottom col-xs-6 col-sm-6 col-md-3 col-lg-2">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">5</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <!-- 2 Height work__item--tactile work__item--bottom -->
-                <li class="work_item work__item--tall work__item--tactile work__item--bottom col-xs-6 col-sm-6 col-md-3 col-lg-2">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">6</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="work_item col-xs-6 col-sm-6 col-md-3 col-lg-2">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">7</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-
-
-                <!-- large  hide  pull^1 -->
-                <li class="work_item col-xs-6 col-sm-6 col-md-3 col-md-pullup-1 col-lg-2 col-lg-hide">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">7+1</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-
-                <!-- Square work__item--m  tall -->
-                <li class="work_item work__item--m work__item--tall col-xs-12 col-sm-12 col-md-6 col-lg-4">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">8</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-
-                
-                <!-- 2 Blcok Hide pull^1 -->
-                <li class="work_item col-xs-6 col-sm-6 col-md-3 col-md-pullup-1 col-lg-2 col-xs-hide">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">9</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="work_item ol-xs-6 col-sm-6 col-md-3 col-lg-2 col-xs-hide col-sm-hide col-md-hide"></li>
-                <li class="work_item ol-xs-6 col-sm-6 col-md-3 col-lg-2 col-xs-hide col-sm-hide col-md-hide"></li>
-
-
-
-                <!-- 2 Blcok Hide pull^2 -->
-                <li class="work_item col-xs-6 col-sm-6 col-md-3 col-lg-2 col-md-pullup-2">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">10</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                <li class="work_item col-xs-6 col-sm-6 col-md-3 col-lg-2 col-xs-hide col-sm-hide col-md-hide"></li>
-                <li class="work_item col-xs-6 col-sm-6 col-md-3 col-lg-2 col-xs-hide col-sm-hide col-md-hide"></li>
-
-
-                <!-- work__item--ambient only large show -->
-                <li class="work_item work__item--ambient col-xs-6 col-sm-6 col-md-3 col-lg-2 col-xs-hide col-sm-hide col-md-hide">11
-                    <img src="" alt="">
-                </li>
-
-                <!-- Video  .work__item--cover pull^1<1 -->
-                <li class="work_item .work__item--cover col-xs-6 col-sm-6 col-md-3 col-lg-2 col-md-pull-left-1 col-md-pullup-1 col-xs-hide">12
-                    <img src="" alt="">
-                </li>
-
-
-                <!-- pull^2 >2 -->
-                <li class="work_item col-xs-6 col-sm-6 col-md-3 col-lg-2 col-md-push-right-2 col-md-pullup-2">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">13</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                
-                <li class="work_item col-xs-6 col-sm-6 col-md-3 col-lg-2 col-md-push-right-3 col-md-pullup-1">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">14</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-
-
-                <!-- work__item--watchface -->
-
-                <li class="work_item work__item--watchface col-xs-6 col-sm-6 col-md-3 col-lg-2">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">15</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-
-
-                <!-- work__item--cover -->
-                <li class="work_item col-xs-12 col-sm-12 col-md-6 col-lg-4 work__item--cover">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">16</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-                
-
-
-
-                <!-- work__item--goo -->
-
-                <li class="work_item work__item--goo col-xs-6 col-sm-6 col-md-3 col-lg-2">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">17</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-
-
-
-                <!-- work__item--ambient -->
-                <li class="work_item work__item--ambient col-xs-6 col-sm-6 col-md-3 col-md-hide col-lg-hide">
-                    <a href="#">
-                        <div class="work_item_container">
-                            <div class="work_item_container_description">18</div>
-                            <div class="work_item_container_content">
-                                <img src="" alt="">
-                            </div>
-                        </div>
-                    </a>
-                </li>
-              
-            
-            
-
-            </ul>        
-        </div>
-
-        
-
-
-        <div class="sendme">
-            <p>Interested in what you see?
-                <br>
-            <br>Shoot me an email <a href="mailto:ohis.yingshiuan@gmail.com">ohis.yingshiuan@gmail.com</a>
-            </p>
-        </div>
-
-
-    </main>
-
-
+  
 
 
     
 
-    <!--article-->
-    <article>
-        <section>
+  <main class="main_container">
+  
 
-        </section>
-    </article>
+<div class="greeting">
+    <ul class="row">
+        <li class ="greeting_item col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <h1><p>Hi there!<br>
+I'm<br>
+Ying-Shiuan Chen.</p>
 
-    <!--aside -->
-    <aside>
+                <br>
+                <br>
+            </h1>
+        </li>
 
-    </aside>
+        <li class ="greeting_item col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <p><p>As a conscious <strong>Designer</strong> and <strong>Developer</strong>, my passion is to curiously find out what suits to individuals and practice creative in both the digital and physical worlds. In the dynamic process of design products, I do research and strategy to develop products in multiple ways. I believe collaborations among other creatives and holding a curiosity about the world are motivations to create.</p>
+
+            </p>
+        </li>
+    </ul>
+</div>
 
 
 
+ 
+<main class="main_container">
+  
+
+    <div class="aboutme">
+        <ul class="row">
+          <li class ="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+            <h1>
+                Hi Hi <span class="material-icons">pets</span>
+                <br>
+                I'm<br>
+                Shiuan.
+                <br>
+                <br>
+            </h1>
+            <div class="aboutmeContainer">
+              <ol class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p>
+                  I am an <b>Interaction Designer</b>, coding for my side project.<span class="material-icons">code</span>
+                  <br>
+                  <br>
+                  Tell you more about me!
+                </p>
+              </ol>
+            </div>
+            
+          </li>
+          <li class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            <div class="aboutme_item_container">
+              <div class="profilePic"><img src="/yshiuanc/resume/ying.jpg" alt="Ying-Shiuan Chen" width="300px" height="300px"></div>
+              <div class="img_show profilePic"><img src="hihi.gif" alt="YShiuan_C" width="300px" height="300px"></div>
+            </div>
+          </li>
+          
+          <li class ="aboutme_item col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="aboutmeContainer">
+              <ol class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p>
+                  All my actions come from my curiosity.<span class="material-icons">auto_awesome</span> I like to explore new things and be creative.
+                  <span class="material-icons">near_me</span>
+                </p>
+              </ol>
+              <ol class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p>
+                  As a tech-savvy person <span class="material-icons">devices_other</span>  who loves food <span class="material-icons">dinner_dining</span> and go workout regularly.<span class="material-icons">directions_run</span>
+                </p>
+              </ol>
+      
+              <ol class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p>
+                  In addition to design, I also study the application of robotic arms <span class="material-icons">precision_manufacturing</span> and baking science. <span class="material-icons">cookie</span>
+                </p>
+              </ol>
+            </div>
+          </li>
+      
+          <li class ="aboutme_item col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="aboutmeContainer">
+              <ol class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h3>
+                    My daily essential products:
+                </h3>
+                <p>
+                  Computer<span class="material-icons">computer</span>, Coffee<span class="material-icons">coffee_maker</span> or Tea<span class="material-icons">emoji_food_beverage</span> both with Milk<span class="material-icons">local_drink</span>,
+                   Egg<span class="material-icons">egg_alt</span>, Sweets<span class="material-icons">icecream</span><span class="material-icons">bakery_dining</span>
+                </p>
+              </ol>
+              <ol class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p>
+                  Headphones<span class="material-icons">headphones</span>, Keyboard<span class="material-icons">keyboard</span>, GoPro<span class="material-icons">videocam</span>
+                </p>
+              </ol>
+            </div>
+          </li>
+      
+          <li class ="aboutme_item col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="aboutmeContainer">
+              <ol class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h3>
+                  Hobbies:
+                </h3>
+                <p>
+                  Travel<span class="material-icons">flight_takeoff</span>, Foodies<span class="material-icons">local_dining</span>, Go outdoors<span class="material-icons">landscape</span><span class="material-icons">wb_sunny</span>,
+                  Watch series and movies<span class="material-icons">movie</span>, Reading<span class="material-icons">auto_stories</span>
+                </p>
+              </ol>
+              <ol class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <p>
+                  Be Creator<span class="material-icons">camera_roll</span>
+                </p>
+              </ol>
+            </div>
+          </li>
+        </ul>
+      
+        <hr>
+       
+      </div>
+      
+  </main>
+  
 
 
-
-
-
-    <!--footer  summary, email, copyright, term of use-->
+    <main class="main_container">
+        <div class="sendme">
+            <p>Interested in what you see?
+                <br>
+                    <br>Shoot me an email <a href="mailto:ohis.yingshiuan@gmail.com">ohis.yingshiuan@gmail.com</a>
+                    <br>
+                    <br>
+                <div class="media_icon">
+                    <a href="mailto:ohis.yingshiuan@gmail.com"><i class="fas fa-paper-plane"></i></a>
+                </div>
+            </p>
+        </div>
+    </main>  
+  
+  
     <footer>
         <div class="footer_container">
             <div class="footer_main">
-                <div class="topic"><h2>Ying-Shiuan Chen
+                <div class="topic">
+                <h2>Ying-Shiuan Chen
                     <a href="mailto:ohis.yingshiuan@gmail.com"><i class="material-icons">email</i></a>
-                </h2></div>
-                
+                </h2>
+                </div>
             </div>
             
             <div class="navbar_footer">
                 <ul>
-                    <li class="logo"><a href="#">YShiuan_C</a></li>
-                    <li class="item"><a href="template/aboutme.html">About me</a></li>
-                    <li class="item"><a href="template/resume.html">Resume</a></li>
-                    <li class="item"><a href="template/portfolio.html">Portfolio</a></li>
-                    <!-- 
-                    <li class="item"><a style="display:none" href="template/blog.html">Blog</a></li>
-                            -->
-                    <li class="item"><a href="template/contact.html">Contact</a></li>
-                    <li class="navbarToggle"><a href="#"><i class="material-icons">menu</i></a></li>
+                    <li class="logo"><a href="/yshiuanc/">YShiuan_C</a></li>
+                    
+                    <!--
+                    <li class="item">
+                        <a href="/yshiuanc/about-me/">About me</a>
+                    </li>
+                    
+                    <li class="item">
+                        <a href="/yshiuanc/resume/">Resume</a>
+                    </li>
+                    
+                    <li class="item">
+                        <a href="/yshiuanc/portfolio/">Portfolio</a>
+                    </li>
+                    
+                    <li class="item">
+                        <a href="/yshiuanc/contact/">Contact</a>
+                    </li>
+                    -->
+                    
+                    <li class="navbarToggle"><a href="#!"><i class="material-icons">menu</i></a></li>
                 </ul>
             </div>
             
             <div class="media">
                 <div class="topic"><h2> </h2></div>
                 <div class="media_icon">
-                    <a href="#"><i class="fa fa-github"></i></a>
-                    <a href="#"><i class="fa fa-instagram"></i></a>
-                    <a href="#"><i class="fa fa-vimeo"></i></a>
-                    <a href="#"><i class="fa fa-medium"></i></a>
-                    <a href="#"><i class="fa fa-linkedin"></i></a>
+                    <!--   
+                    <a href="https://github.com/yingshiuan" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/yshiuan_c?igshid=ejehd1tl8ce" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/channel/UCFpat39kIqYmYTbbfdoBNfA" target="_blank"><i class="fab fa-youtube"></i></a>
+                    
+                    <a href="https://vimeo.com/yshiuanc" target="_blank"><i class="fab fa-vimeo-v"></i></a>
+                    <a href="https://yshiuan-c.medium.com" target="_blank"><i class="fab fa-medium-m"></i></a>
+                    <a href="https://www.linkedin.com/in/chenyingshiuan/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    -->
                 </div>
             </div>
-            
+            <!--
             <div class="resouce">
                 <ul class="sitemap">
-                    <li><a href="">Sitemap</a></li>
+                    <li><a href="/YShiuan_C/sitemap/">Sitemap</a></li>
                 </ul>
             </div>
+            -->
             
             <div class="footer_copyright">
                 <li>
-                    <p>&copy 2020 <a href="#">Ying-Shiuan Chen</a> All rights reserved</p>
+                    <p>&copy 2021 <a href="/YShiuan_C/">Ying-Shiuan Chen</a> All rights reserved</p>
                 </li>
             </div>
-
         </div>          
     </footer>
-
-
+  
+  
     <!--script java-->
-    <script>
-        
-        /* Click Hide mennu */
+    <script>        
+        /* Click Hide menu */
         $(document).ready(function(){
-  	        $('.navbarToggle').click(function(){
-    	        $('.item').toggleClass("show");
-   			    $('ul li').toggleClass("hide");
-        			
-             });
-         });
-
+            $('.navbarToggle').click(function(){
+            $('.item').toggleClass("show");
+            $('.navbarToggle').toggleClass("hide");          
+            });
+        });
     
-
-
+        /*scroll*/
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+          if (prevScrollpos > currentScrollPos) {
+            document.getElementById("scroll").style.top = "20px";
+          } else {
+            document.getElementById("scroll").style.top = "-100px";
+          }
+          prevScrollpos = currentScrollPos;
+        }
     </script>
-
-
 </body>
 
-</html>
