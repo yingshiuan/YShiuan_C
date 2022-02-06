@@ -303,7 +303,7 @@
             
             <div class="footer_copyright">
                 <li>
-                    <p>&copy 2022 <a href="/YShiuan_C/">Ying</a> All rights reserved</p>
+                  <p>&copy <span id="year"></span> <a href="{{ '/'|url }}">Ying</a> All rights reserved</p>
                 </li>
             </div>
         </div>          
@@ -331,6 +331,10 @@
           }
           prevScrollpos = currentScrollPos;
         }
+        
+        /*year*/
+        const d = new Date();
+        document.getElementById("year").innerHTML = d.getFullYear();
     </script>
 </body>
 
