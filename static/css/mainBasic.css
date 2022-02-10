@@ -196,6 +196,15 @@ header{
 }
 
 
+.mode-button:hover .tooltip{
+    display: block;
+    margin-top: 1rem;
+    text-align: center;
+    color:white;
+    background: #2C2C2E;
+}
+
+
 .homepage:hover .tooltip{
     display: block;
     margin-top: 1rem;
@@ -284,10 +293,6 @@ currently
     color:var(--caption-color);
 }
 
-.info a{
-    color:var(--caption-color);
-    text-decoration: underline;
-}
 
 
 
@@ -621,6 +626,23 @@ aboutme
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+/*impossible list*/
+.aboutmeContainer ol a{
+    color:var(--text-color);
+    text-decoration: underline;
+}
+
+.aboutmeContainer ol a:hover{
+    color: var(--text-hover);
+    text-decoration: underline;
+}
+
+.del{
+    text-decoration: line-through;
+}
+
+
 
 
 
@@ -1477,7 +1499,6 @@ iframe {
     width: 100%;
     padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
 }
-
 
 .responsive-iframe {
     position: absolute;
