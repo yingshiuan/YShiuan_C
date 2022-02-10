@@ -1,9 +1,5 @@
-
-
-
-
 function getUserPreference() {
-  return localStorage.getItem('theme') || 'system';
+  return localStorage.getItem('theme') || 'auto';
 }
 
 function saveUserPreference(userPreference) {
@@ -32,17 +28,17 @@ function setAppliedMode(mode) {
 }
 
 function rotatePreferences(userPreference) {
-  if (userPreference === 'system') {
+  if (userPreference === 'auto') {
     return 'light-theme'
   }
   if (userPreference === 'light-theme') {
     return 'dark-theme';
   }
   if (userPreference === 'dark-theme') {
-    return 'system';
+    return 'auto';
   }
   // for invalid values, just in case
-  return 'system';
+  return 'auto';
 }
 
 
