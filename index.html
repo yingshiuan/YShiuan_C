@@ -22,6 +22,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
   <script type="text/javascript" src="/YShiuan_C/static/js/mode-theme.js"></script>
+  <script async type="text/javascript" src="/YShiuan_C/static/js/function.js"></script>
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
   <!-- Font -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -308,33 +309,5 @@
             </div>
         </div>          
     </footer>
-  
-  
-    <!--script java-->
-    <script>        
-        /* Click Hide menu */
-        $(document).ready(function(){
-            $('.navbarToggle').click(function(){
-            $('.item').toggleClass("show");
-            $('.navbarToggle').toggleClass("hide");          
-            });
-        });
-    
-        /*scroll*/
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-          if (prevScrollpos > currentScrollPos) {
-            document.getElementById("scroll").style.top = "20px";
-          } else {
-            document.getElementById("scroll").style.top = "-100px";
-          }
-          prevScrollpos = currentScrollPos;
-        }
-        
-        /*year*/
-        const d = new Date();
-        document.getElementById("year").innerHTML = d.getFullYear();
-    </script>
 </body>
 
